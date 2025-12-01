@@ -1,37 +1,22 @@
 package es.masanz.ut5.teoria;
 
-import es.masanz.ut5.teoria.model.Persona;
-
 public class Main {
     public static void main(String[] args) {
-        String[] nombres = new String[5];
 
-        nombres[0] = "Aitor";
-        nombres[1] = "Alex";
-        nombres[2] = "Roberto";
-        nombres[3] = "Samuel";
-        nombres[4] = "Guillermo";
+        DiaSemana diaSemana = DiaSemana.MARTES;
 
-//        for (int i = 0; i < nombres.length; i++) {
-//            System.out.println(nombres[i]);
-//        }
+        if (diaSemana == DiaSemana.MARTES){
+            System.out.println("Son iguales");
+        } else {
+            System.out.println("Son diferentes");
+        }
 
-        int[] numeros = new int[5];
-        numeros[1] =1;
+        DiaSemana[] diasDeLaSemana = DiaSemana.values();
 
-        Persona[] personas = new Persona[6];
-        personas[0] = new Persona();
-        personas[0].setNombre("Raul");
-        personas[0].setEdad(18);
-        personas[1] = new Persona();
-        personas[1].setNombre("Iker");
-        personas[1].setEdad(19);
-        Persona andrii = new Persona();
-        andrii.setNombre("Andrii");
-        andrii.setEdad(18);
-        personas[2] = andrii;
-        System.out.println(personas[2]);
-        andrii.setEdad(17);
-        System.out.println(personas[2]);
+        Dificultad nivel = Dificultad.MEDIO;
+
+        int filas = nivel.getFilas();
+        int columnas = nivel.getColumnas();
+        int bombas = nivel.getBombas();
     }
 }

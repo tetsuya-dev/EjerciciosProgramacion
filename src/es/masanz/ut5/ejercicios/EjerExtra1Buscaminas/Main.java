@@ -1,4 +1,4 @@
-package es.masanz.ut5.ejercicios.EjerExtra1Bsucaminas;
+package es.masanz.ut5.ejercicios.EjerExtra1Buscaminas;
 
 public class Main {
     public static void main(String[] args) {

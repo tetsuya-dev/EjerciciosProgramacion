@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96b93d31-a98a-4ba4-9d52-28e14da68239" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/es/masanz/ut5/ejercicios/EjerExtra1Bsucaminas/BuscaMinas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/es/masanz/ut5/ejercicios/EjerExtra1Bsucaminas/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="928c6725-059c-4a2f-9b83-fbef97091c66" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejerciciosProgramacion.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/es/masanz/ut5/ejercicios/EjerExtra1Buscaminas/BuscaMinas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/masanz/ut5/ejercicios/EjerExtra1Buscaminas/BuscaMinas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/es/masanz/ut5/ejercicios/EjerExtra1Buscaminas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/masanz/ut5/ejercicios/EjerExtra1Buscaminas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/es/masanz/ut5/teoria/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/masanz/ut5/teoria/Matrices/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/es/masanz/ut5/teoria/Matrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/masanz/ut5/teoria/Matrices/Matrices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -32,29 +34,50 @@
   "customColor": "",
   "associatedIndex": 3
 }]]></component>
-  <component name="ProjectId" id="36EwC8hAvXVWnjccRfYGqh2CfiH" />
+  <component name="ProjectId" id="36FBl9sLcfnYaPL6VXeB4DBse8e" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
+    "Application.TallasRopa.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TallasRopa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="es.masanz.ut5.ejercicios.Ejer28TallasRopa.TallasRopa" />
+      <module name="EjerciciosProgramacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.masanz.ut5.ejercicios.Ejer28TallasRopa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TallasRopa" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="96b93d31-a98a-4ba4-9d52-28e14da68239" name="Changes" comment="" />
-      <created>1764584908755</created>
+      <changelist id="928c6725-059c-4a2f-9b83-fbef97091c66" name="Changes" comment="" />
+      <created>1764592587877</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1764584908755</updated>
+      <updated>1764592587877</updated>
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-package es.masanz.ut5.teoria;
+package es.masanz.ut5.teoria.Matrices;
 
 public class Matrices {
     public static void main(String[] args) {
