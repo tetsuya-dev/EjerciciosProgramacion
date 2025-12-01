@@ -1,4 +1,4 @@
-package es.masanz.ut5.ejercicios.Ejer1SumaArray;
+package es.masanz.ut5.ejercicios.Ejer01SumaArray;
 
 public class SumaArray {
     public static void main(String[] args) {

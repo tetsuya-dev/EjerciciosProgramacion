@@ -1,4 +1,4 @@
-package es.masanz.ut5.ejercicios.Ejer2BuscarNumero;
+package es.masanz.ut5.ejercicios.Ejer02BuscarNumero;
 
 import java.util.Scanner;
 

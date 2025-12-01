@@ -1,6 +1,4 @@
-package es.masanz.ut5.ejercicios.Ejer8OrdenarArray;
-
-import java.util.Arrays;
+package es.masanz.ut5.ejercicios.Ejer08OrdenarArray;
 
 public class OrdenarArray {
     public static void main(String[] args) {

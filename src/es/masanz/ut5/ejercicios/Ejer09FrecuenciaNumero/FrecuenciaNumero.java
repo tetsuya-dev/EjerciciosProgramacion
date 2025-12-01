@@ -1,4 +1,4 @@
-package es.masanz.ut5.ejercicios.Ejer9FrecuenciaNumero;
+package es.masanz.ut5.ejercicios.Ejer09FrecuenciaNumero;
 
 import java.util.Scanner;
 

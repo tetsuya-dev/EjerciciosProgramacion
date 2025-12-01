@@ -1,6 +1,6 @@
-package es.masanz.ut5.ejercicios.Ejer4ImprimirImpares;
+package es.masanz.ut5.ejercicios.Ejer03ImprimirPares;
 
-public class ImprimirImpares {
+public class ImprimirPares {
     public static void main(String[] args) {
         int[] numeros = new int[10];
         for (int i = 0; i < numeros.length; i++) {
@@ -8,7 +8,7 @@ public class ImprimirImpares {
         }
 
         for (int i = 0; i < numeros.length; i++) {
-            if (numeros[i]%2 != 0){
+            if (numeros[i]%2 == 0){
                 System.out.println(numeros[i]);
             }
         }

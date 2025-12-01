@@ -1,4 +1,4 @@
-package es.masanz.ut5.ejercicios.Ejer6ReversoArray;
+package es.masanz.ut5.ejercicios.Ejer06ReversoArray;
 
 public class ReversoArray {
     public static void main(String[] args) {

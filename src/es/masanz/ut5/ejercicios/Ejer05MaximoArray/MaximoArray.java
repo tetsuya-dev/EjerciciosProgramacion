@@ -1,4 +1,4 @@
-package es.masanz.ut5.ejercicios.Ejer5MaximoArray;
+package es.masanz.ut5.ejercicios.Ejer05MaximoArray;
 
 public class MaximoArray {
     public static void main(String[] args) {
