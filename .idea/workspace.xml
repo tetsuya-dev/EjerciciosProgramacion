@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="928c6725-059c-4a2f-9b83-fbef97091c66" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejerciciosProgramacion.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/es/masanz/ut5/ejercicios/EjerExtra1Buscaminas/BuscaMinas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/masanz/ut5/ejercicios/EjerExtra1Buscaminas/BuscaMinas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/es/masanz/ut5/ejercicios/EjerExtra1Buscaminas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/masanz/ut5/ejercicios/EjerExtra1Buscaminas/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/es/masanz/ut5/teoria/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/masanz/ut5/teoria/Matrices/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/es/masanz/ut5/teoria/Matrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/masanz/ut5/teoria/Matrices/Matrices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +23,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "rsanchelop2"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tetsuya-dev/EjerciciosProgramacion.git",
+    "accountId": "d5d3881e-b2fd-4142-ac1f-878e141eec85"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="36FBl9sLcfnYaPL6VXeB4DBse8e" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,11 +46,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Sramble.executor": "Run",
     "Application.TallasRopa.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/datos/Documents/no borrar/EjerciciosProgramacion",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
