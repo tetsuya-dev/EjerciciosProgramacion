@@ -1,6 +1,7 @@
 package es.masanz.ut6.ejercicios.Ejer4CartasDuplicadas;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 
 public class Main {
@@ -26,14 +27,19 @@ public class Main {
     }
 
     public static void descartarCartasRepetidas(Jugador jugador, ArrayList mazo){
+        int contador = 0;
         for (Integer i : jugador.getBaraja()) {
-            for (Integer j : jugador.getBaraja()) {
-                if (i.equals(j+1)){
-                    mazo.add(jugador.getBaraja().get(i));
-                    jugador.getBaraja().remove(i);
-
+            if (contador < 2){
+                Collections.frequency(jugador.getBaraja(), jugador.getBaraja().get(i));
+                for (Integer j : jugador.getBaraja()) {
+                    if (i.equals(j+1)){
+                        mazo.add(jugador.getBaraja().get(i));
+                        jugador.getBaraja().remove(i);
+                        contador++;
+                    }
                 }
             }
+
         }
     }
 
