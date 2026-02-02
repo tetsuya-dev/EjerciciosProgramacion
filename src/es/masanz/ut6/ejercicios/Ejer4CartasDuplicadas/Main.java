@@ -3,6 +3,7 @@ package es.masanz.ut6.ejercicios.Ejer4CartasDuplicadas;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.List;
 
 public class Main {
 
@@ -11,14 +12,14 @@ public class Main {
     private static Jugador jugador3 = new Jugador("Iker");
 
 
-    public static void imprimirArrayList(ArrayList lista){
+    public static void imprimirArrayList(List lista){
         for (Object o : lista) {
             System.out.println(o);
         }
         System.out.println();
     }
 
-    public static void repartirCartasIniciales(Jugador jugador, ArrayList mazo){
+    public static void repartirCartasIniciales(Jugador jugador, List mazo){
         for (int i = 0; i < 6; i++) {
             int n = (int) (Math.random() * mazo.size());
             jugador.getBaraja().add((Integer) mazo.get(n));
@@ -26,7 +27,7 @@ public class Main {
         }
     }
 
-    public static void descartarCartasRepetidas(Jugador jugador, ArrayList mazo){
+    public static void descartarCartasRepetidas(Jugador jugador, List mazo){
         int contador = 0;
         for (Integer i : jugador.getBaraja()) {
             if (contador < 2){
@@ -45,7 +46,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        ArrayList<Integer> mazo = new ArrayList<Integer>();
+        List<Integer> mazo = new ArrayList<Integer>();
 
         for (int palo = 0; palo < 4; palo++) {
             for (int i = 1; i <= 13; i++) {

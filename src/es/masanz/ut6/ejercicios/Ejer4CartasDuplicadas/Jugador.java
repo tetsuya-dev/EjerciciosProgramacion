@@ -2,10 +2,11 @@ package es.masanz.ut6.ejercicios.Ejer4CartasDuplicadas;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 
 public class Jugador {
     private String nombre;
-    private ArrayList<Integer> baraja = new ArrayList<>();
+    private List<Integer> baraja = new ArrayList<>();
 
     public Jugador(String nombre) {
         this.nombre = nombre;
@@ -15,11 +16,11 @@ public class Jugador {
         return nombre;
     }
 
-    public ArrayList<Integer> getBaraja() {
+    public List<Integer> getBaraja() {
         return baraja;
     }
 
-    public void setBaraja(ArrayList<Integer> baraja) {
+    public void setBaraja(List<Integer> baraja) {
         this.baraja = baraja;
     }
 }

@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="928c6725-059c-4a2f-9b83-fbef97091c66" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/es/masanz/ut6/ejercicios/Ejer4CartasDuplicadas/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/masanz/ut6/ejercicios/Ejer4CartasDuplicadas/Jugador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/es/masanz/ut6/ejercicios/Ejer4CartasDuplicadas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/masanz/ut6/ejercicios/Ejer4CartasDuplicadas/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.Main1.executor": "Run",
     "Application.Peaje.executor": "Run",
     "Application.Sramble.executor": "Run",
     "Application.TallasRopa.executor": "Run",
