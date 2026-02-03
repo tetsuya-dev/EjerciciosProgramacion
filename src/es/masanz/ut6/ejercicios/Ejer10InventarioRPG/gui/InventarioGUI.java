@@ -7,4 +7,7 @@ public class InventarioGUI {
         // TODO: Mostrar por consola el item facilidato (check)
         System.out.println(item.toString());
     }
+
+    public static void mostrarMensaje(String itemEncontrado) {
+    }
 }

@@ -2,6 +2,7 @@ package es.masanz.ut6.ejercicios.Ejer10InventarioRPG.dao;
 
 import es.masanz.ut6.ejercicios.Ejer10InventarioRPG.model.Item;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -10,14 +11,25 @@ public class InventarioDAO {
 
     private static HashMap<String, Item> inventario;
 
-    public static void agregarItem(Item item) {
+    public static void agregarItem(Item addItem) {
         // TODO: Agregar al hashmap el item facilitado (check)
-        inventario.put(item.getNombre(), item);
+        Item itemInventario = inventario.get(addItem.getNombre());
+        if (itemInventario == null){
+            inventario.put(addItem.getNombre(), addItem);
+        } else {
+            itemInventario.setCantidad(itemInventario.getCantidad() + addItem.getCantidad());
+        }
     }
 
-    public static void perderItems(Item item) {
+    public static void perderItems(Item deleteItem) {
         // TODO: Eliminar del hashmap del item facilitado
-        inventario.remove(item.getNombre());
+        Item itemInventario = inventario.get(deleteItem.getNombre());
+        if (itemInventario != null){
+            int nuevaCantidad = itemInventario.getCantidad() - deleteItem.getCantidad();
+            if (nuevaCantidad <= 0){
+                itemInventario.setCantidad(nuevaCantidad);
+            }
+        }
     }
 
     public static void inicializarInventario() {
@@ -27,7 +39,8 @@ public class InventarioDAO {
 
 
     public static List<Item> obtenerItems() {
-
-        return null;
+        // TODO Devolver todos los items del hashMap del inventario
+        List<Item> items = new ArrayList<>(inventario.values());
+        return items;
     }
 }

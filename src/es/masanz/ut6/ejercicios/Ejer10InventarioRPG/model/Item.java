@@ -14,6 +14,10 @@ public class Item {
             "Daga de Cobre"
     };
 
+    public Item(String nombre, int cantidad) {
+        this.cantidad = cantidad;
+        this.nombre = nombre;
+    }
     public Item() {
         nombre = asignarNombre();
         cantidad = cantidadAleatoria();
