@@ -1,5 +1,8 @@
 package es.masanz.ut6.teoria;
 
+import es.masanz.ut6.teoria.Prueba.Cosa;
+import es.masanz.ut6.teoria.Prueba.Persona;
+
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.*;
 
@@ -7,7 +10,8 @@ public class Pruebas {
     public static void main(String[] args) {
 
         //probandoTreeMap();
-        probandoLinkedHashMap();
+        //probandoLinkedHashMap();
+        pregunta();
     }
 
     private static void probandoLinkedHashMap() {
@@ -42,5 +46,26 @@ public class Pruebas {
             nombres.add(value);
         }
         System.out.println(nombres);
+    }
+
+    private static void pregunta(){
+        Persona p1 = new Persona("P1");
+        Persona p2 = new Persona("P2");
+        Cosa c1 = new Cosa("C1");
+        Cosa c2 = new Cosa("C2");
+        Cosa c3 = new Cosa("C3");
+        List<Cosa> lista1 = new ArrayList<>();
+        List<Cosa> lista2 = new ArrayList<>();
+        lista1.add(c1);
+        lista1.add(c3);
+        lista2.add(c1);
+        lista2.add(c2);
+        lista2.add(c3);
+        HashMap<Persona, List<Cosa>> mapa = new HashMap<>();
+        mapa.put(p1, lista1);
+        mapa.put(p2, lista1);
+        Cosa c = mapa.get(p1).get(0);
+        c.setNombre("XX");
+        System.out.println(mapa.get(p2));
     }
 }
