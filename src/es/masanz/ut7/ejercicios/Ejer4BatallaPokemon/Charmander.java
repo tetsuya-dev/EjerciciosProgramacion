@@ -3,9 +3,6 @@ package es.masanz.ut7.ejercicios.Ejer4BatallaPokemon;
 public class Charmander implements Pokemon, Fuego {
     public String getNombre() { return "Charmander"; }
 
-    public Charmander() {
-        this.
-    }
 
     public void atacar(Pokemon enemigo) {
         System.out.println(getNombre() + " lanza brasas a " + enemigo.getNombre());
