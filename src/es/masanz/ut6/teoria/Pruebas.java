@@ -50,22 +50,20 @@ public class Pruebas {
 
     private static void pregunta(){
         Persona p1 = new Persona("P1");
-        Persona p2 = new Persona("P2");
         Cosa c1 = new Cosa("C1");
-        Cosa c2 = new Cosa("C2");
-        Cosa c3 = new Cosa("C3");
-        List<Cosa> lista1 = new ArrayList<>();
-        List<Cosa> lista2 = new ArrayList<>();
-        lista1.add(c1);
-        lista1.add(c3);
-        lista2.add(c1);
-        lista2.add(c2);
-        lista2.add(c3);
-        HashMap<Persona, List<Cosa>> mapa = new HashMap<>();
-        mapa.put(p1, lista1);
-        mapa.put(p2, lista1);
-        Cosa c = mapa.get(p1).get(0);
-        c.setNombre("XX");
-        System.out.println(mapa.get(p2));
+        Map<Integer, Map<String, Object>> mapa = new
+                HashMap<>();
+        Map<String, Object> m = new HashMap<>();
+        m.put("cosa", c1);
+        m.put("persona", p1);
+        m.put("estado", false);
+        mapa.put(1, m);
+        boolean b = (boolean) mapa.get(1).get("estado");
+        if (!b) {
+            mapa.get(1).put("rol", "normal");
+        }else {
+            mapa.get(1).put("rol", "super");
+        }
+        System.out.println(mapa.get(1).get("rol"));
     }
 }

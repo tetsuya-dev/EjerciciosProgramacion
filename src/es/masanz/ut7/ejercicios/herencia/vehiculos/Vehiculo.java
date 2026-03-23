@@ -1,4 +1,4 @@
-package es.masanz.ut7.ejercicios.herencia;
+package es.masanz.ut7.ejercicios.herencia.vehiculos;
 
 public abstract class Vehiculo {
     protected int potencia;
