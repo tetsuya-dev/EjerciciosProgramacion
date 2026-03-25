@@ -1,4 +1,4 @@
-package es.masanz.ut7.ejercicios.herencia.vehiculos;
+package es.masanz.ut7.teoria.herencia.vehiculos;
 
 import java.util.ArrayList;
 import java.util.List;

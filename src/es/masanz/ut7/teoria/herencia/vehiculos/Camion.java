@@ -1,4 +1,4 @@
-package es.masanz.ut7.ejercicios.herencia.vehiculos;
+package es.masanz.ut7.teoria.herencia.vehiculos;
 
 public class Camion extends Vehiculo{
 

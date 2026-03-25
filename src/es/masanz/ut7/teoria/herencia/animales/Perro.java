@@ -1,4 +1,4 @@
-package es.masanz.ut7.ejercicios.herencia.animales;
+package es.masanz.ut7.teoria.herencia.animales;
 
 public class Perro extends Animal {
 
